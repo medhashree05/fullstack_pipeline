@@ -9,7 +9,7 @@ def student_details():
     return jsonify({
         "name": "Medha Shree N",
         "roll_number": "042",
-        "register_number": "2023BCS0042
+        "register_number": "2023BCS0042"
     })
 
 if __name__ == '__main__':

@@ -9,12 +9,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/medhashree05/fullstack_pipeline.git'
-            }
-        }
-
         stage('Build Images') {
             steps {
                 sh 'docker build -t $BACKEND_IMAGE ./backend'

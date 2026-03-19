@@ -1,4 +1,4 @@
-fetch("http://localhost:5000/student-details")
+fetch("http://16.171.197.96:5000/student-details")
   .then(res => res.json())
   .then(data => {
     document.getElementById("name").innerText = "Name: " + data.name;
